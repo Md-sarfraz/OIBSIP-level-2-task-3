@@ -1,0 +1,60 @@
+.body_converter{
+    border:2px solid black;
+    border-radius: 10px;
+    width:500px;
+    margin-left: 38%;
+    margin-top: 10%;
+}
+.first_heading{
+    margin-left: 80px;
+}
+p{
+    font-size: 20px;
+}
+.degree_types{
+    display: flex;
+    margin-left: 60px;
+}
+.degree{
+    margin-right: 20px;
+}
+.type{
+    margin-left: 20px;
+}
+input{
+    border-top-style:hidden ;
+    border-left-style: hidden;
+    border-right-style: hidden;
+    border-bottom-style: groove ;
+    font-size: 15px;
+}
+.option{
+    border-top-style:hidden ;
+    border-left-style: hidden;
+    border-right-style: hidden;
+    border-bottom-style: groove ;
+    font-size: 20px;
+    width:150px;
+    margin-top: -5px;
+}
+.no-outline:focus{
+    outline:none;
+}
+.result{
+    border-bottom: 1px solid black;
+    height:80px;
+    margin-left: 60px;
+    margin-right: 70px;
+    margin-bottom: 20px;
+}
+button{
+    width:380px;
+    border-radius: 10px;
+    height:70px;
+    margin-left:60px;
+    font-size:30px;
+    margin-bottom: 30px;
+}
+button:hover{
+    background-color: grey;
+}
