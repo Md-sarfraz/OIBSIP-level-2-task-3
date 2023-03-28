@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>Sarfraz's Temperature Converter</title>
+        <link rel="stylesheet" href="temperature_converter.css">
+        <script src="temperature_converter.js"></script>
+    </head>
+    <body>
+        <h1 style="text-align: center;">Sarfraz's Temperature Converter</h1>
+        <div class="body_converter">
+            <div>
+                <h1 class="first_heading">Temperature Converter</h>
+            </div>
+            <div class="degree_types">
+                <div class="degree">
+                    <p>Degrees</p>
+                    <input type="text" id="degree"/>
+                </div>
+                <div class="type">
+                    <p>Types</p>
+                    <!-- <input type="option"/> -->
+                    <select id="option" class="option">
+                        <option value="Farenheit">Farenheit</option>
+                        <option value="Celcius">Celcius</option>
+                        <option value="kelvin">Kelvin</option>
+                    </select>
+                </div>
+            </div>
+            <div class="result">
+                <p>Results</p>
+                <p id="Results"></p>
+            </div>
+            <button id="button" onclick="convert()">Convert</button>
+        </div>
+    </body>
+</html>
