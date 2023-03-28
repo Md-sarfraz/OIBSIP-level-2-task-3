@@ -1,9 +1,14 @@
+body{
+    background-color: rgb(201, 246, 246);
+}
 .body_converter{
-    border:2px solid black;
+    border:2px solid rgb(0, 0, 0);
     border-radius: 10px;
     width:500px;
     margin-left: 38%;
     margin-top: 10%;
+    margin:auto;
+    background-color: rgb(143, 241, 241);
 }
 .first_heading{
     margin-left: 80px;
